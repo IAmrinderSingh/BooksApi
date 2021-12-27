@@ -19,10 +19,9 @@ package com.gdsc.bbsbec.booksapi.model
 import com.google.gson.annotations.SerializedName
 
 
-data class Books(
+data class ReadingModes(
 
-    @SerializedName("kind") var kind: String? = null,
-    @SerializedName("totalItems") var totalItems: Int? = null,
-    @SerializedName("items") var items: ArrayList<Items> = arrayListOf()
+    @SerializedName("text") var text: Boolean? = null,
+    @SerializedName("image") var image: Boolean? = null
 
 )

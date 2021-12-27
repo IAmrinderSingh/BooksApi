@@ -19,10 +19,11 @@ package com.gdsc.bbsbec.booksapi.model
 import com.google.gson.annotations.SerializedName
 
 
-data class Books(
+data class SaleInfo(
 
-    @SerializedName("kind") var kind: String? = null,
-    @SerializedName("totalItems") var totalItems: Int? = null,
-    @SerializedName("items") var items: ArrayList<Items> = arrayListOf()
+    @SerializedName("country") var country: String? = null,
+    @SerializedName("saleability") var saleability: String? = null,
+    @SerializedName("isEbook") var isEbook: Boolean? = null,
+    @SerializedName("listPrice") var listPrice: ListPrice? = ListPrice()
 
 )

@@ -19,5 +19,6 @@ package com.gdsc.bbsbec.booksapi.utils
 class Constants {
     companion object {
         const val BASE_URL = "https://www.googleapis.com/books/v1/volumes/"
+        const val API_KEY = "AIzaSyBRbpBTxk2jAqbLkei_qsddoiynTww38MY"
     }
 }
